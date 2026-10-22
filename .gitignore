@@ -1,0 +1,5 @@
+# 依赖与运行时数据，不要上传到仓库
+node_modules/
+.data/
+*.log
+.DS_Store
