@@ -1,0 +1,19 @@
+{
+  "name": "我的衣橱",
+  "short_name": "衣橱",
+  "description": "多人多设备共享的衣橱管理 App",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f2f3f5",
+  "theme_color": "#5b7aa3",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
