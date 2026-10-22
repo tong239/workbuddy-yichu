@@ -1,0 +1,12 @@
+{
+  "name": "wardrobe-app",
+  "version": "1.0.0",
+  "description": "我的衣橱 · 多人多设备共享协作 App（前端 + Node.js 后端，自带实时同步）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
