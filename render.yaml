@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: wardrobe-app
+    runtime: node
+    plan: free
+    branch: main
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+    healthCheckPath: /
